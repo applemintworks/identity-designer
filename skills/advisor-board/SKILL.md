@@ -7,7 +7,7 @@ description: Manages the user's personal board of advisors — adding, retiring,
 
 Part of the **identity-designer** system. Owns the board of advisors: adding, retiring, organizing them into optional named boards, and consulting them individually or in parallel. Workspace setup lives in `identity-workspace`; daily rituals live in `identity-rituals`.
 
-**No tiers on the roster itself.** Every advisor in `profile/advisors.md` is simply "in the roster" or archived — there's no core/bench distinction. Named boards (below) are optional groupings layered on top; any roster member can belong to none, one, or several.
+**No tiers on the roster itself.** Every advisor in `profile/advisors.md` is simply "in the roster" or archived — nothing more granular than that. Named boards (below) are optional groupings layered on top; any roster member can belong to none, one, or several.
 
 **Setup dependency:** `identity-workspace`'s `!setup-identity` populates `profile/advisors.md` from this skill's `references/default-advisors.md` at install time. Both skills ship in the same plugin, so the file is available even though the command that uses it lives elsewhere.
 

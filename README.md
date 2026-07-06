@@ -2,7 +2,7 @@
 
 A personal identity design system for Claude. Most AI profiles tell Claude what you do — this one tells Claude who you're becoming. It builds a living, cross-session profile of your values, work style, and goals, gives you a customizable board of advisors to think alongside, runs daily/weekly rituals that turn ordinary sessions into a compounding record, and compiles that record into finished documents (a growth summary, a case for advancement, a pre-meeting briefing) when you need them.
 
-Built for anyone who wants Claude to know them over time, not just per-conversation — regular employees, executives, and business owners alike.
+Built for anyone who wants Claude to know them over time, not just per-conversation — whether your work happens in an office, a classroom, a job site, or at home.
 
 Version 1.0.0 — initial public release.
 
@@ -21,8 +21,6 @@ claude --plugin-dir ./identity-designer   # quick local test, no install
 ```
 
 Run `/reload-plugins` to activate it if Claude Code was already running.
-
-**Note:** always distribute the `.zip`, not the `.plugin` file — Claude Desktop's uploader currently only accepts `.zip`.
 
 Once active, run `!setup-identity` to build your workspace. Setup takes about 20 minutes and walks through a short onboarding conversation.
 
@@ -65,7 +63,7 @@ Everything under `profile/` and `system/` is either generated during onboarding 
 
 ## A note on the default advisors
 
-The starting board of eight advisors (Paul Graham, Cal Newport, Warren Buffett, Brené Brown, Brad Jacobs, Daniel Kahneman, Andy Grove, Naval Ravikant) are original summaries of each person's publicly known thinking, written to give the board a distinct starting point. They are not affiliated with, endorsed by, or created in consultation with any of these individuals, and every advisor — default or custom — can be edited, replaced, or retired at any time via `!retire-advisor` and `!add-advisor`. The eight role categories they fill (challenge, craft, financial, humanity, operator, risk, strategy, wildcard) can also be customized by power users via `!add-role` and `!remove-role`.
+The starting board of eight advisors (Paul Graham, Cal Newport, Warren Buffett, Brené Brown, Brad Jacobs, Daniel Kahneman, Andy Grove, Naval Ravikant) are original summaries of each person's publicly known thinking, written to give the board a distinct starting point. They are not affiliated with, endorsed by, or created in consultation with any of these individuals, and every advisor — default or custom — can be edited, replaced, or retired at any time via `!add-advisor` and `!retire-advisor`. The eight role categories they fill (challenge, craft, financial, humanity, operator, risk, strategy, wildcard) can also be customized by power users via `!add-role` and `!remove-role`.
 
 ---
 
