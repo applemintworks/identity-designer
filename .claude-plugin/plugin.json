@@ -1,0 +1,20 @@
+{
+  "name": "identity-designer",
+  "displayName": "Identity Designer",
+  "version": "1.0.0",
+  "description": "A personal identity design system that builds a living profile of who you're becoming - board of advisors, daily rituals, coaching, and an achievement-log pipeline, not just a task list.",
+  "author": {
+    "name": "Judy Wang Lee"
+  },
+  "homepage": "https://www.linkedin.com/in/judywanglee",
+  "license": "Apache-2.0",
+  "keywords": [
+    "identity",
+    "coaching",
+    "career",
+    "advisors",
+    "personal-growth",
+    "achievement-log",
+    "rituals"
+  ]
+}

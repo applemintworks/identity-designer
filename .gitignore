@@ -1,0 +1,15 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Packaged plugin archives — distribute via GitHub Releases, not committed
+*.zip
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Python bytecode (scripts/date_check.py)
+__pycache__/
+*.pyc
